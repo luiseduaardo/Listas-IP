@@ -11,10 +11,10 @@ Este repositório contém minhas atividades e exercícios desenvolvidos na disci
 - Recursão
 - Dicionários e tuplas
 
-🛠 Tecnologias
+## 🛠 Tecnologias
 Python 3.x
 
-💡 Sobre
+## 💡 Sobre
 Repositório criado como parte dos meus estudos na disciplina de Introdução à Programação, abordando fundamentos de programação, estruturas de dados, funções, recursão e conceitos essenciais.
 
-Feito por Luís Eduardo.
+Feito por [Luís Eduardo](https://github.com/luiseduaardo) 🚀
