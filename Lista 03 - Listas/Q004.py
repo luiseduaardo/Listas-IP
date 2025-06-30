@@ -173,35 +173,21 @@ else:
                 tipo3_nomes[j] = aux_nome
 
     # Printa os zords de cada tipo
+    # MELHORIA: printar nomes usando .join
     if len(tipo1_nomes) == 0:
         print("Não temos nenhum zord do tipo 1 :(")
     else:
-        print("Zords do tipo 1: ", end = '')
-        for a in range(len(tipo1_nomes)):
-            if a != len(tipo1_nomes) - 1:
-                print(f"{tipo1_nomes[a]}, ", end = '')
-            else:
-                print(f"{tipo1_nomes[a]}")
+        print("Zords do tipo 1:", ", ".join(tipo1_nomes))
 
     if len(tipo2_nomes) == 0:
         print("Não temos nenhum zord do tipo 2 :(")
     else:
-        print("Zords do tipo 2: ", end = '')
-        for b in range(len(tipo2_nomes)):
-            if b != len(tipo2_nomes) - 1:
-                print(f"{tipo2_nomes[b]}, ", end = '')
-            else:
-                print(f"{tipo2_nomes[b]}")
+        print("Zords do tipo 2:", ", ".join(tipo2_nomes))
 
     if len(tipo3_nomes) == 0:
         print("Não temos nenhum zord do tipo 3 :(")
     else:
-        print("Zords do tipo 3: ", end = '')
-        for c in range(len(tipo3_nomes)):
-            if c != len(tipo3_nomes) - 1:
-                print(f"{tipo3_nomes[c]}, ", end = '')
-            else:
-                print(f"{tipo3_nomes[c]}")
+        print("Zords do tipo 3:", ", ".join(tipo3_nomes))
 
     # Verificar se todos os rangers têm zords
     if maior_tipo1 != '' and segundo_maior_tipo1 != '' and maior_tipo2 != '' and segundo_maior_tipo2 != '' and maior_tipo3 != '' and segundo_maior_tipo3 != '':

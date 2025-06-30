@@ -54,9 +54,5 @@ while not encerrar:
     
     elif entrada == 'E por hoje é só, pessoal!':
         encerrar = True
-        print("Pronto, vovó! A lista de compras para o bolo de Narizinho está pronta. Podemos ir ao mercado. A lista final é: ", end = '')
-        for ingrediente in lista:
-            if ingrediente == lista[len(lista) - 1]:
-                print(f'{ingrediente}')
-            else:
-                print(f'{ingrediente}, ', end = '')
+        # MELHORIA: print da lista usando função .join()
+        print("Pronto, vovó! A lista de compras para o bolo de Narizinho está pronta. Podemos ir ao mercado. A lista final é:", ", ".join(lista))

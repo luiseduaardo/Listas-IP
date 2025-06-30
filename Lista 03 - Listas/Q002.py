@@ -50,10 +50,8 @@ else:
                 jacontado = True
         
         if not jacontado:
-            contador = 0
-            for k in range(len(lista_criaturas)):
-                if lista_criaturas[k] == item:
-                    contador += 1
+            # MELHORIA: uso da função .count()
+            contador = lista_criaturas.count(item)
             
             print(f"{item}: {contador}")
         

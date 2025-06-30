@@ -112,7 +112,7 @@ for i in range(equipes):
     if teen_completo:
         print("O teen team esta completo, Cecil esta muito contente!")
         for j in range(len(lista_geral[i])):
-            lista_geral[i][j][1] += 10  # buffa +10 de poder, por exemplo
+            lista_geral[i][j][1] *= 1.1  # CORREÇÃO: aumenta 10% do poder e não +10 pontos
 
 melhor_poder = -1
 melhor_time = -1
